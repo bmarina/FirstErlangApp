@@ -1,10 +1,26 @@
 {"1.1.0",
-[{<<"cowboy">>,{pkg,<<"cowboy">>,<<"1.1.2">>},0},
+[{<<"bbmustache">>,{pkg,<<"bbmustache">>,<<"1.0.4">>},1},
+ {<<"cf">>,{pkg,<<"cf">>,<<"0.2.2">>},1},
+ {<<"cowboy">>,{pkg,<<"cowboy">>,<<"1.1.2">>},0},
  {<<"cowlib">>,{pkg,<<"cowlib">>,<<"1.0.2">>},1},
- {<<"ranch">>,{pkg,<<"ranch">>,<<"1.3.2">>},1}]}.
+ {<<"erlware_commons">>,{pkg,<<"erlware_commons">>,<<"1.0.0">>},1},
+ {<<"getopt">>,{pkg,<<"getopt">>,<<"0.8.2">>},1},
+ {<<"providers">>,{pkg,<<"providers">>,<<"1.6.0">>},1},
+ {<<"ranch">>,{pkg,<<"ranch">>,<<"1.3.2">>},1},
+ {<<"relx">>,{pkg,<<"relx">>,<<"3.22.4">>},0},
+ {<<"sync">>,
+  {git,"git://github.com/rustyio/sync.git",
+       {ref,"20846b02126846d69f1f4b2d00fcad580ef5c0d0"}},
+  0}]}.
 [
 {pkg_hash,[
+ {<<"bbmustache">>, <<"7BA94F971C5AFD7B6617918A4BB74705E36CAB36EB84B19B6A1B7EE06427AA38">>},
+ {<<"cf">>, <<"7F2913FFF90ABCABD0F489896CFEB0B0674F6C8DF6C10B17A83175448029896C">>},
  {<<"cowboy">>, <<"61AC29EA970389A88ECA5A65601460162D370A70018AFE6F949A29DCA91F3BB0">>},
  {<<"cowlib">>, <<"9D769A1D062C9C3AC753096F868CA121E2730B9A377DE23DEC0F7E08B1DF84EE">>},
- {<<"ranch">>, <<"E4965A144DC9FBE70E5C077C65E73C57165416A901BD02EA899CFD95AA890986">>}]}
+ {<<"erlware_commons">>, <<"087467DE5833C0BB5B3CCDD387F9E9C1FB816A75B7A709629BF24B5ED3246C51">>},
+ {<<"getopt">>, <<"B17556DB683000BA50370B16C0619DF1337E7AF7ECBF7D64FBF8D1D6BCE3109B">>},
+ {<<"providers">>, <<"DB0E2F9043AE60C0155205FCD238D68516331D0E5146155E33D1E79DC452964A">>},
+ {<<"ranch">>, <<"E4965A144DC9FBE70E5C077C65E73C57165416A901BD02EA899CFD95AA890986">>},
+ {<<"relx">>, <<"98D6AE6EEECB31F2018CD06AF574579BAF1C08E9A848F9184F7B95F35A480AC8">>}]}
 ].

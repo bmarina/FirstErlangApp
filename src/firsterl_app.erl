@@ -19,7 +19,7 @@ start(_Type, _Args) ->
 	{ok, _} = cowboy:start_http(http, 100, [{port, 8080}], [
 		{env, [{dispatch, Dispatch}]}
 	]),
-	hello_world_sup:start_link().
+	firsterl_sup:start_link().
 
 stop(_State) ->
 	ok.
